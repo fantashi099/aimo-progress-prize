@@ -37,7 +37,7 @@ logging_strategy: steps
 lr_scheduler_type: cosine
 max_steps: -1
 num_train_epochs: 1
-output_dir: test_qwen25_math_1_5B
+output_dir: ./test_qwen25_math_1_5B
 hub_model_revision: main
 run_name: test_qwen25_math_1_5B
 overwrite_output_dir: true
