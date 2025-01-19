@@ -3,7 +3,7 @@
 model_name_or_path: Qwen/Qwen2.5-Math-1.5B-Instruct
 model_revision: main
 torch_dtype: float16
-attn_implementation: sdpa
+attn_implementation: eager
 overwrite_hub_revision: true
 # Data training arguments
 # For definitions, see: src/h4/training/config.py
